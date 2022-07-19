@@ -58,6 +58,10 @@ header {
     font-size: 20px;
 }
 
+.quiz-content {
+    font-size: 30px;
+}
+
 .start {
     margin-top: 25px;
     font-size: 30px;
@@ -66,6 +70,28 @@ header {
     background-color: #490757;
     border: 5px solid #e8fc32;
     cursor: pointer;
+}
+
+.ques-button {
+        margin: 25px;
+        font-size: 30px;
+        text-align: center;
+        color: #e8fc32;
+        background-color: #490757;
+        border: 5px solid #e8fc32;
+        cursor: pointer;
+        padding: 10px;
+}
+
+.quiz-button {
+    margin-top: 25px;
+    font-size: 30px;
+    text-align: center;
+    color: #e8fc32;
+    background-color: #490757;
+    border: 5px solid #e8fc32;
+    cursor: pointer;
+    padding: 10px;
 }
 
 .start:hover {
@@ -78,7 +104,10 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
     font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
